@@ -1,7 +1,3 @@
-Is this documented somewhere? I'm definitely interested in your future plans. I have some of my own ideas, which I will dump here in case you are curious. 
-
-------------------
-
 # chernobyl
 
 ## A factorio mod similar to Meltdown and Realistic Reactors
