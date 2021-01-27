@@ -4,7 +4,7 @@
 
 ## A factorio mod similar to Meltdown and Realistic Reactors
 
-This mod aims to make nuclear power more difficult and dangerous. It does not, however, aim to be "realistic." It aims to force the player to use signals to dynamically balance the reactor and encourages the player to build redundant safety measures. This mod provides the the user with multiple ways of of controlling a fusion reaction but leaves the implmentation of these systems up to the player. None of these strategies are perfect- Each have their own strengths and weaknesses. 
+This mod aims to make nuclear power more difficult and dangerous. It does not, however, aim to be "realistic." It aims to force the player to dynamically balance the reactor and encourages the player to build redundant safety measures. This mod provides the user with multiple opportunities for controlling a fusion reaction but leaves the implmentation of these systems up to the player. None of these strategies are perfect- Each have their own strengths and weaknesses. 
 
 ## New elements
 
@@ -27,7 +27,7 @@ A RBMK without Fuel Cells won't run. However, once a cell has been added to the 
 
 2) Adding and removing Control Rods.
 
-A RBMK without Control Rods will quickly meltdown. The reaction is governed by the number of Control Rods present. You will need to use the signal emitted by the RBMK to feed Control Rods at the appropriate rate. Use a combinator to activate and deativate an inserter that feeds the RBMK Control Rods and another which removes Control Rods from the RBMK to balance the reaction.
+A RBMK without Control Rods will quickly meltdown. The reaction is governed by the number of Control Rods present. You will need to use the signal emitted by the RBMK to feed the correct number of Control Rods into the RBMK. Use a combinator to activate and deativate an inserter that feeds the RBMK Control Rods and another which removes Control Rods from the RBMK to balance the reaction.
 
 3) Venting excess Heat.
 
@@ -37,6 +37,6 @@ You can use the Heat Sink to burn off excess Heat. For instance, you might make 
 
 You can push your reactor to dangerous temperatures, provided you maintain it with Repair Packs.
 
-### SCRAM
+### Where is the SCRAM button?
 
 SCRAM is a method for shutting down the reactor as fast as possible. This is left to the player to implement. One possible SCRAM system would be a combinator that, upon recieving a predefined signal, activates all 3 safety measures- Removing all the Fuel Cells, Adding 100 Control Rods and activating the Heat Relief System all at once.
