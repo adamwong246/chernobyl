@@ -50,6 +50,8 @@ footGenerator.icons = {
   },
 }
 
+footGenerator.localised_name = "Foot Generator"
+
 local footGeneratorRecipe = table.deepcopy(data.raw["recipe"]["exoskeleton-equipment"])
 footGeneratorRecipe.enabled = true
 footGeneratorRecipe.name = "foot-generator"
