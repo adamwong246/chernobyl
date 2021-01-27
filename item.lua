@@ -59,5 +59,7 @@ footGeneratorRecipe.result = "foot-generator"
 
 data:extend{fireArmor,fireArmorRecipe, footGenerator, footGeneratorRecipe}
 
-log(serpent.block(data.raw["item"]["foot-generator"]))
-log(serpent.block(data.raw["recipe"]["foot-generator"]))
+-- log(serpent.block(data.raw["item"]["exoskeleton-equipment"]))
+-- log(serpent.block(data.raw["recipe"]["exoskeleton-equipment"]))
+-- log(serpent.block(data.raw["item"]["foot-generator"]))
+-- log(serpent.block(data.raw["recipe"]["foot-generator"]))
